@@ -1,12 +1,12 @@
 # Chat Application
 
-A real-time one-on-one chat application built with Spring Boot and WebSocket.
+A Real-Time One-on-One Chat Application built with Spring Boot and WebSocket.
 
 ## Features
 
-- User registration and authentication
-- Real-time messaging using WebSockets
-- One-on-one private conversations
+- User Registration and Authentication
+- Real-Time messaging using WebSockets
+- One-on-One private conversations
 - Online status indicators
 - Message history persistence
 - User-friendly interface
