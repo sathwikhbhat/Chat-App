@@ -139,7 +139,7 @@ function sendMessage(event) {
     if (messageContent && stompClient) {
         const chatMessage = {
             senderId: nickname,
-            recipientId: selectedUserId,
+            receiverId: selectedUserId,
             content: messageInput.value.trim(),
             timestamp: new Date()
         };
