@@ -33,7 +33,7 @@ function connect(event) {
 
 function onConnected() {
     stompClient.subscribe(`/user/${nickname}/queue/messages`, onMessageReceived);
-    stompClient.subscribe(`/user/public`, onMessageReceived);
+    stompClient.subscribe(`/topic/public`, onMessageReceived);
 
     stompClient.send("/app/user.addUser",
         {},
@@ -66,7 +66,7 @@ function appendUserElement(user, connectedUsersList) {
     listItem.id = user.nickName;
 
     const userImage = document.createElement('img');
-    userImage.src = '../img/user_icon.png';
+    userImage.src = 'img/user_icon.png';
     userImage.alt = user.fullName;
 
     const usernameSpan = document.createElement('span');
@@ -183,7 +183,7 @@ function onLogout() {
     window.location.reload();
 }
 
-usernameForm.addEventListener('submit', connect, true); // step 1
+usernameForm.addEventListener('submit', connect, true); 
 messageForm.addEventListener('submit', sendMessage, true);
 logout.addEventListener('click', onLogout, true);
 window.onbeforeunload = () => onLogout();
