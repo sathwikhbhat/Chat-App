@@ -1,4 +1,4 @@
-package com.sathwikhbhat.chat_app;
+package com.sathwikhbhat.chatapp;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

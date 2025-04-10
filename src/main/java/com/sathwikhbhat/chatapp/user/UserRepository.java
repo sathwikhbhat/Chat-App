@@ -1,4 +1,4 @@
-package com.sathwikhbhat.chat_app.user;
+package com.sathwikhbhat.chatapp.user;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 

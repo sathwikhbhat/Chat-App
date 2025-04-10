@@ -1,4 +1,4 @@
-package com.sathwikhbhat.chat_app;
+package com.sathwikhbhat.chatapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

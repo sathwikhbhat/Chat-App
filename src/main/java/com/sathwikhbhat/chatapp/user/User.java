@@ -1,4 +1,4 @@
-package com.sathwikhbhat.chat_app.user;
+package com.sathwikhbhat.chatapp.user;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,4 +1,4 @@
-package com.sathwikhbhat.chat_app.config;
+package com.sathwikhbhat.chatapp.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.context.annotation.Configuration;

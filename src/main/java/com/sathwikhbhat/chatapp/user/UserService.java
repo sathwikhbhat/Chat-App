@@ -1,4 +1,4 @@
-package com.sathwikhbhat.chat_app.user;
+package com.sathwikhbhat.chatapp.user;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
